@@ -12,3 +12,13 @@ def início():
         nome = nome,
         curso = curso
     )
+
+    @app.route('/sobre')
+    def sobre():
+        return"""
+        <h1>sobre o Projeto</h1>
+        <p>Esse projeto foi criado usando Python e Flask.</p>
+        <a href="> Volta para o inicio<a/a>
+        """
+        if_name_=='_main_'
+        app.run(host='0.0.0.0', port=3000, debug=True)
